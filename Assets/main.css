@@ -1,0 +1,23 @@
+
+*{
+    
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+
+
+header{
+    background-color: aliceblue;
+}
+
+button{
+
+    display: inline-block;
+    padding:2%;
+    margin: 5px;
+}
+
+.nextButton{
+    text-align: center;
+}
