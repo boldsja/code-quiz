@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./Assets/main.css"/>
+    <link rel="stylesheet" href="./Assets/main.css" />
 </head>
+
 <body>
     <header>
         <h1>Coding Quiz</h1>
-            <h2>Test Your Coding Knowledge!</h2>
+        <h3>Time:<span id="time"></span></h3>
     </header>
 
-<div id="quizBody" >
-    <div id="question">
-        <div class="chooseAnswers">
-            <button id="true">True</button>         
-            <button id="false">False</button>
-        </div>
-
-
-
-
-
-    <button id="startButton">Start</button>   
-    <button id="nextButton">Next</button> 
+    <div id="start-screen">
+        <h2>Test Your Coding Knowledge!</h2>
+        <button id="startButton">Start</button>
     </div>
-    
+
+    <div class="hide" id="quizBody">
+        <div id="questions" class="container">
+            <h3 id="question-title"></h3>
+            <div id="choices"></div>
+        </div>
+    </div>
+
+    <div class="hide" id="end-screen">
+        <h2>Congratulations! Your final score is <span id="finalScore"></span>! Enter your initials to save your score.
+        </h2>
+        <input id="initials-input" max="3" type="text">
+        <button id="submitBtn">Submit</button>
+    </div>
+
+    </div>
 
 
-
-</div>
-
-
-<script src="./Assets/script.js"></script>
+    <script src="./Assets/script.js"></script>
 </body>
+
 </html>

@@ -5,7 +5,9 @@
     background-color: lightskyblue;
 }
 
-
+.hide{
+    display: none;
+}
 
 header{
     background-color: aliceblue;
